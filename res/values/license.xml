@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="license_text" translatable="false">The fonts in this application are a courtesy of Yakov Mendelson and Maxim Iorsh under the GNU license.
+The fonts can be downloaded from <a href="http://www.imarketer.co.il/designing/free-hebrew-fonts">www.imarketer.co.il/designing/free-hebrew-fonts</a> and from <a href="http://www.mendelsson.co.il/yakov/myfonts.htm">www.mendelsson.co.il/yakov/myfonts.htm</a>
+The GNU General Public License can be obtained from <a href="http://www.gnu.org/licenses/gpl-2.0.html">here</a>.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">הגדרות</string>
+    <string name="app_name">אלף בית</string>
+    <string name="exit">יציאה</string>
+    <string name="print">דפוס</string>
+    <string name="handwriting">כתב</string>
+    <string name="license">רישיון שימוש</string>
+    
+</resources>

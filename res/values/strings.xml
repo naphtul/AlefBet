@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-7596391938029302/5552982478</string>
+    <string name="interstitial_unit_id" translatable="false">ca-app-pub-7596391938029302/8302640879</string>
+    <string name="app_name">AlefBet</string>
+    <string name="exit">Exit</string>
+    <string name="print">Letters in PRINT</string>
+    <string name="handwriting">Letters in Handwriting</string>
+    <string name="license">License</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlLetterFrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded" >
+
+    <TextView
+        android:id="@+id/txtLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top|center"
+        android:duplicateParentState="true"
+        android:gravity="top|center"
+        android:text="ה"
+        android:textSize="@dimen/textSize"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_unit_id" >
+
+    </com.google.android.gms.ads.AdView>
+
+    <ImageView
+        android:id="@+id/imgAnimal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ad"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtLetter"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Animal"
+        android:duplicateParentState="true"
+        android:src="@drawable/i04_hippo"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/imgAnimal"
+        android:layout_alignTop="@id/imgAnimal"
+        android:layout_marginTop="10dp"
+        android:duplicateParentState="true"
+        android:text="היפופוטם"
+        android:textSize="@dimen/animalTextSize"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

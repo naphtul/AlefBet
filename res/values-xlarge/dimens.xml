@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="textSize">500dp</dimen>
+    <dimen name="animalHeight">400dp</dimen>
+    <dimen name="animalWidth">600dp</dimen>
+    <dimen name="animalTextSize">55dp</dimen>
+
+</resources>
